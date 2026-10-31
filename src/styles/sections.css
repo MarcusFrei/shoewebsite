@@ -1,0 +1,149 @@
+/* Homepage-secties: nieuws, werkwijze, regels, CTA */
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.sec-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.news {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 48px;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 36px;
+  background: var(--surface);
+}
+
+.news-img {
+  aspect-ratio: 4/3;
+}
+
+.news>div {
+  padding: 12px 24px 12px 0;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 2.5rem 0 0;
+}
+
+.steps li {
+  padding: 28px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+}
+
+.steps p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.step-n {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--on-accent);
+  font: 600 1.2rem var(--serif);
+  margin-bottom: 1rem;
+}
+
+.rules {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+  border-top: 1px solid var(--line);
+}
+
+.rules li {
+  padding: 20px 12px 20px 0;
+  border-bottom: 1px solid var(--line);
+  font: 600 1.12rem var(--serif);
+}
+
+.rules small {
+  display: block;
+  font: 500 .75rem var(--sans);
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.contact-lines {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 32px;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.contact-lines a:hover {
+  color: var(--accent);
+}
+
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 34px 38px;
+  border-radius: 30px;
+  background: linear-gradient(120deg,#c4642a,#a8501b);
+  color: #fff;
+}
+
+.cta h3 {
+  margin: 0 0 4px;
+}
+
+.cta p {
+  margin: 0;
+  opacity: .92;
+}
+
+@media (max-width: 960px) {
+  .rules {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .split,
+.news {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .news>div {
+    padding: 0 8px 12px;
+  }
+}
+
+@media (max-width: 560px) {
+  .cta {
+    padding: 26px;
+  }
+}

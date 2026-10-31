@@ -1,0 +1,46 @@
+/* Kleuren, lettertypen en thema (licht / donker) */
+
+:root {
+  --bg: #fdfaf5;
+  --surface: #fff;
+  --tint: #f6eee1;
+  --ink: #2e2824;
+  --muted: #6b6058;
+  --line: #eadfce;
+  --accent: #b8571f;
+  --on-accent: #fff;
+  --accent-soft: #fbe9d9;
+  --serif: "Fraunces",Georgia,serif;
+  --sans: "Inter",system-ui,sans-serif;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top,0px);
+  padding-bottom: env(safe-area-inset-bottom,0px);
+}
+
+:root[data-theme="dark"] {
+  --bg: #1c1511;
+  --surface: #261c16;
+  --tint: #2b2019;
+  --ink: #f3eadf;
+  --muted: #bba99a;
+  --line: #3c2d22;
+  --accent: #e69a66;
+  --on-accent: #1c1511;
+  --accent-soft: #3a281c;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1c1511;
+    --surface: #261c16;
+    --tint: #2b2019;
+    --ink: #f3eadf;
+    --muted: #bba99a;
+    --line: #3c2d22;
+    --accent: #e69a66;
+    --on-accent: #1c1511;
+    --accent-soft: #3a281c;
+    color-scheme: dark;
+  }
+}

@@ -1,0 +1,20 @@
+/* Scroll-animaties (moet als laatste staan) */
+
+.rv {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .6s,transform .6s;
+}
+
+.rv.in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rv {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

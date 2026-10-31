@@ -1,0 +1,17 @@
+export const PRODUCTS = [
+  { slug: "aangepaste-schoenen", title: "Aangepaste schoenen", short: "Volledig op maat, in het model en de kleur die u zelf kiest.",
+    lead: "Orthopedische schoenen zijn volledig op maat gemaakt en zo ontworpen dat uw voetproblemen zo goed mogelijk worden opgelost.",
+    sections: [["Uw wensen staan voorop", "Ik houd rekening met uw voorkeur voor model en kleur en leg uitgebreid uit wat er mogelijk is. Vaak kan een schoen zelfs worden gemaakt naar uw favoriete model uit een folder of tijdschrift."]],
+    note: "Ook voor aangepaste pantoffels, slippers of sandalen bent u bij ons aan het goede adres." },
+  { slug: "steunzolen", title: "Steunzolen", short: "Individueel gemaakt voor betere stand, houding en stabiliteit.",
+    lead: "Steunzolen zijn ontwikkeld voor biomechanische correcties. Bij voet- of houdingsklachten kunt u bij mij terecht voor schoenadvies en individueel gemaakte steunzolen, ook bij klachten door reuma of diabetes.",
+    pointsTitle: "Mijn steunzolen kunnen helpen om", points: ["Uw voeten- en enkelstand te corrigeren", "Rug-, knie- en heupklachten te verminderen", "De lichaamshouding te verbeteren", "Meer stabiliteit aan uw voeten te geven"] },
+  { slug: "leest-maken", title: "Leest maken", short: "De leest is de ziel van de schoen: een kopie van uw voet.",
+    lead: "Maatschoenen worden gemaakt op een individueel gemaakte mal: de leest, een kopie van de voet van degene voor wie de schoen is.",
+    sections: [["Afdruk", "Tijdens de aanmeetsessie bespreken we uw klachten en kijken we naar stand, houding, aandoening, beweeglijkheid en anatomie. Daarmee maak ik een plan en een opstelling met de gemeten hielheffing en eventuele correcties. Daarna zet ik de voet in gips of cellacast."],
+      ["Passchoen maken", "Van alle gegevens en de gipshuls maak ik een individuele leest en daarna een passchoen. Zo kan worden beoordeeld of de leest goed is en of er nog kleine correcties nodig zijn, voordat de definitieve schoen wordt gemaakt."]],
+    pointsTitle: "Kenmerken van leestmodellen", points: ["Engels: halfronde neus", "Hollands: brede neus", "Italiaans: slank model met korte, spitse neus", "Amerikaans: brede neus, natuurlijke vorm"] },
+  { slug: "advies", title: "Advies", short: "Eerlijk advies, ook als u niets hoeft te kopen.",
+    lead: "Ik help u graag tot een goede oplossing voor uw voetklachten te komen, met eerlijk advies voor úw situatie.",
+    sections: [["Soms is minder genoeg", "Het kan goed zijn dat ik u adviseer géén steunzolen of orthopedisch schoeisel aan te schaffen, maar bijvoorbeeld een ander schoenmodel of een aanpassing aan uw huidige schoen."], ["Samen met de revalidatiearts", "Om u nog beter van dienst te zijn kan ik uw situatie nader bekijken in samenwerking met een revalidatiearts."]] },
+];

@@ -1,0 +1,18 @@
+export const GALLERY = [
+  ["2025/10/Theunissen-schoenatelier-We4Media-6-scaled.jpg", "Maatwerk in het atelier"],
+  ["2021/06/schoenatelier-theunissen-voorbeelden-05.jpg", "Voorbeeld maatschoenen"],
+  ["2024/07/IMG_20240503_112703-scaled.jpg", "Aangepaste schoenen"],
+  ["2024/07/b34fabf8-eb85-471c-adaf-ec88b83a7d66-scaled.jpeg", "Afgewerkte maatschoen"],
+  ["2024/07/IMG_20230303_112734-scaled.jpg", "Detail van het vakwerk"],
+  ["2021/06/IMG_20200922_114915-2-2-scaled-1.jpg", "Voorbeeld uit het atelier"],
+  ["2025/10/Theunissen-schoenatelier-We4Media-4.jpg", "Frans aan het werk"],
+  ["2024/07/IMG_20240417_105440-scaled.jpg", "Steunzolen en schoenen"],
+  ["2026/05/e5ce73af-c346-4660-805b-a018347422ae.jpg", "Recent werk"],
+  ["2026/05/3c6665d1-48b8-4657-8717-b4315bca9475.jpg", "Recent werk"],
+  ["2026/05/1d86bafd-fcda-489a-80b2-7574b38dea2b.jpg", "Recent werk"],
+  ["2026/05/018163f8-db3f-4cce-a149-5aecb77af6ac.jpg", "Recent werk"],
+  ["2026/05/19981785-b7cd-415d-802b-ee67fe7b37b1.jpg", "Recent werk"],
+  ["2026/05/2f93ff87-e290-4de7-80bb-a41e2a05492d.jpg", "Recent werk"],
+  ["2026/05/c3dba870-ad74-437f-a961-d632b26afe9b.jpg", "Recent werk"],
+  ["2026/05/84d849df-27a0-4476-95b2-49696611884d.jpg", "Recent werk"],
+];
